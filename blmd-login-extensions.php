@@ -1,15 +1,17 @@
 <?php
 /*
 Plugin Name: BLMD Login Extensions
-Plugin URI: http://github.com/blmd/blmd-login-extensions
+Plugin URI: https://github.com/blmd/blmd-login-extensions
 Description: Adds another cookie for logged in admin
 Author: blmd
-Author URI: http://github.com/blmd
-Version: 0.1
+Author URI: https://github.com/blmd
+Version: 0.2
+
+GitHub Plugin URI: https://github.com/blmd/blmd-login-extensions
 */
 
 !defined( 'ABSPATH' ) && die;
-define( 'BLMD_LOGIN_EXTENSIONS_VERSION', '0.1' );
+define( 'BLMD_LOGIN_EXTENSIONS_VERSION', '0.2' );
 define( 'BLMD_LOGIN_EXTENSIONS_URL', plugin_dir_url( __FILE__ ) );
 define( 'BLMD_LOGIN_EXTENSIONS_DIR', plugin_dir_path( __FILE__ ) );
 define( 'BLMD_LOGIN_EXTENSIONS_BASENAME', plugin_basename( __FILE__ ) );
